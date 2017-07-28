@@ -1,5 +1,5 @@
 GIT
-  remote: git@invent.focusvision.com:Portland/fv.git
+  remote: git@invent.focusvision.com:Portland/fv-gem.git
   revision: 854440c7a2a9d03731911f4dbe309d1425b20559
   tag: v0.1.0
   specs:
@@ -23,7 +23,7 @@ GIT
 PATH
   remote: .
   specs:
-    fv_unified (0.0.1)
+    fv_unified (0.1.0)
       fv
 
 GEM
@@ -111,4 +111,4 @@ DEPENDENCIES
   webmock (~> 2.3.1)
 
 BUNDLED WITH
-   1.11.2
+   1.12.5
