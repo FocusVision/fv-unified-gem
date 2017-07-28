@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = 'SDK for FocusVision unified login api'
   spec.description   = 'The fv_unified gem wraps the FV Unified Login API in ' \
     'simple method calls'
-  spec.homepage      = 'https://invent.focusvision.com/Portland/fv-unified'
+  spec.homepage      = 'https://invent.focusvision.com/Portland/fv-unified-gem'
 
   spec.metadata['allowed_push_host'] = 'http://gems.focusvision.com'
 
@@ -20,8 +20,6 @@ Gem::Specification.new do |spec|
   spec.bindir        = 'exe'
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
-
-  spec.add_dependency 'fv'
 
   spec.add_development_dependency 'bundler', '~> 1.11'
   spec.add_development_dependency 'rake', '~> 10.0'

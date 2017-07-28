@@ -24,7 +24,6 @@ PATH
   remote: .
   specs:
     fv_unified (0.1.0)
-      fv
 
 GEM
   remote: https://rubygems.org/
