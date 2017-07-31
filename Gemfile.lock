@@ -23,7 +23,8 @@ GIT
 PATH
   remote: .
   specs:
-    fv_unified (0.1.0)
+    fv_unified (0.1.1)
+      fv
 
 GEM
   remote: https://rubygems.org/
