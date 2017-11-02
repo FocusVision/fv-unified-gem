@@ -75,6 +75,22 @@ describe FV::Unified::User do
     end
   end
 
+  describe '.reset_password_link' do
+    it 'gets a reset password link for the current user' do
+      token = FV::Unified::User.reset_password_link
+
+      expect(token).to be_a(String)
+    end
+  end
+
+  describe '.set_password_link' do
+    it 'gets a set password link for the current user' do
+      token = FV::Unified::User.set_password_link
+
+      expect(token).to be_a(String)
+    end
+  end
+
   describe '#to_hash' do
     it 'is reversible' do
       user_hash = FV::Unified::User.find(1).to_hash

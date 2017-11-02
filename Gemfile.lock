@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: git@invent.focusvision.com:Portland/impostor-api.git
-  revision: 11725545a40920c020f5b9aa9f7ef0c472883666
+  revision: 832f2091d15bd1f853968fabc1eb59c6a2ab20e5
   branch: master
   specs:
     impostor (0.1.1)
