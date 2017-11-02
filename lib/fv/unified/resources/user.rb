@@ -3,7 +3,8 @@ module FV
     class User < FV::Unified::ApiResource
       define_attribute_readers :first_name,
                                :last_name,
-                               :email
+                               :email,
+                               :is_confirmed
 
       has_many :companies
       has_many :servers
