@@ -13,20 +13,23 @@ module FV
         new(client.request(:get, "#{resource_path}/me").data)
       end
 
-      def self.reset_password_token
+      def reset_password_token
         reset_password_json[:token]
       end
 
-      def self.set_password_link
+      def set_password_link
         reset_password_json[:set_link]
       end
 
-      def self.reset_password_link
+      def reset_password_link
         reset_password_json[:reset_link]
       end
 
-      def self.reset_password_json
-        client.request(:get, "#{resource_path}/me/reset-password").json
+      def reset_password_json
+        self.class.client.request(
+          :get,
+          "#{self.class.resource_path}/#{id}/reset-password"
+        ).json
       end
     end
   end
