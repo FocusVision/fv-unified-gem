@@ -22,7 +22,7 @@ GIT
 PATH
   remote: .
   specs:
-    fv_unified (0.2.0)
+    fv_unified (0.3.0)
       fv
 
 GEM
