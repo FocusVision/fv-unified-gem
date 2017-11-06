@@ -13,8 +13,7 @@ GIT
 
 GIT
   remote: https://github.com/FocusVision/fv-gem.git
-  revision: 90ccd2305a9dcc80573ed1afbcd47df62418e456
-  branch: rs/save-attributes
+  revision: ca180778657beff110fce810e42b6bae1bce0149
   specs:
     fv (0.2.0)
       activesupport
