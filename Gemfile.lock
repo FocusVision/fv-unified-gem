@@ -1,14 +1,6 @@
 GIT
-  remote: git@invent.focusvision.com:Portland/fv-gem.git
-  revision: 1dc1e849e05fe47e16897beda50a9b2b244d37a2
-  specs:
-    fv (0.1.0)
-      activesupport
-      httparty (~> 0.14.0)
-
-GIT
   remote: git@invent.focusvision.com:Portland/impostor-api.git
-  revision: 832f2091d15bd1f853968fabc1eb59c6a2ab20e5
+  revision: 71662d15c7f5d6edfa37a9c3ec9de28c98524813
   branch: master
   specs:
     impostor (0.1.1)
@@ -19,16 +11,24 @@ GIT
       webmock
       xml-simple
 
+GIT
+  remote: https://github.com/FocusVision/fv-gem.git
+  revision: ca180778657beff110fce810e42b6bae1bce0149
+  specs:
+    fv (0.2.0)
+      activesupport
+      httparty (~> 0.14.0)
+
 PATH
   remote: .
   specs:
-    fv_unified (0.2.0)
+    fv_unified (0.3.0)
       fv
 
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.1.2)
+    activesupport (5.1.4)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (~> 0.7)
       minitest (~> 5.1)
@@ -45,7 +45,8 @@ GEM
     hashdiff (0.3.4)
     httparty (0.14.0)
       multi_xml (>= 0.5.2)
-    i18n (0.8.6)
+    i18n (0.9.1)
+      concurrent-ruby (~> 1.0)
     method_source (0.8.2)
     minitest (5.10.3)
     multi_xml (0.6.0)
@@ -87,7 +88,7 @@ GEM
     slop (3.6.0)
     thread_safe (0.3.6)
     tilt (2.0.8)
-    tzinfo (1.2.3)
+    tzinfo (1.2.4)
       thread_safe (~> 0.1)
     unicode (0.4.4.4)
     webmock (2.3.2)
@@ -101,7 +102,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.11)
-  fv (= 0.1.0)!
+  fv (= 0.2.0)!
   fv_unified!
   impostor!
   pry-inline (~> 1.0.2)
